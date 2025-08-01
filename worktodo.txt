@@ -1,0 +1,2 @@
+1- fix the favicon bug
+2- fix the hosting issue

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Background -->
+  <rect width="32" height="32" fill="#1e293b" rx="4"/>
+  
+  <!-- Code brackets -->
+  <text x="8" y="12" font-family="monospace" font-size="8" font-weight="bold" fill="#3b82f6">&lt;</text>
+  <text x="24" y="12" font-family="monospace" font-size="8" font-weight="bold" fill="#3b82f6">/&gt;</text>
+  
+  <!-- Code line -->
+  <text x="10" y="20" font-family="monospace" font-size="6" fill="#f1f5f9">dev</text>
+  
+  <!-- Terminal cursor -->
+  <rect x="22" y="18" width="2" height="2" fill="#10b981"/>
+</svg> 
