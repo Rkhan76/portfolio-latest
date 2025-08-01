@@ -24,7 +24,7 @@ const EducationSection = () => {
       location: 'Aligarh, India',
       degree: 'Senior Secondary School',
       period: '2017 - 2019',
-      grade: 'Percentage: 82.8%',
+      grade: 'Percentage: 75%',
       icon: School,
       current: false,
     },
