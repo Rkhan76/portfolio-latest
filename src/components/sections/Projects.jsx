@@ -17,56 +17,83 @@ import projectImg4 from '@/assets/images/projectImg-4.png';
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "DevTinder",
+      title: 'DevTinder',
       description:
-        "A social networking platform for developers to connect, share posts, and collaborate. Built with modern web technologies and responsive design.",
+        'A social networking platform for developers to connect, share posts, and collaborate. Built with modern web technologies and responsive design.',
       image: projectImg1,
-      link: "#", // Will be updated with actual link
-      github: "https://github.com/Rkhan76/devtinder",
+      link: 'https://dev-tinder-frontend-theta.vercel.app/login', // Will be updated with actual link
+      github: 'https://github.com/Rkhan76/DevTinder-backend',
       features: [
-        "Google/Email authentication with secure user management",
-        "Post creation with image uploads using Cloudinary",
-        "Redux persistence for state management",
-        "Responsive UI with React, Tailwind CSS, and DaisyUI",
-        "Protected routes and infinite scrolling for better UX",
+        'Google/Email authentication with secure user management',
+        'Post creation with image uploads using Cloudinary',
+        'Redux persistence for state management',
+        'Responsive UI with React, Tailwind CSS, and DaisyUI',
+        'Protected routes and infinite scrolling for better UX',
       ],
       technologies: [
-        "React.js",
-        "Express.js",
-        "Node.js",
-        "MongoDB",
-        "Redux",
-        "Tailwind CSS",
-        "Cloudinary",
+        'React.js',
+        'Express.js',
+        'Node.js',
+        'MongoDB',
+        'Redux',
+        'Tailwind CSS',
+        'Cloudinary',
       ],
     },
     {
-      title: "EduVoyage",
+      title: 'NextGenEdu',
       description:
-        "A full-stack e-learning platform enabling users to browse courses, manage carts, and authenticate via Google. Built with modern TypeScript and robust backend.",
+        'A fully functional MERN-based e-learning platform aimed at enhancing personalized, accessible, and engaging online education for diverse and underserved learners.',
       image: projectImg2,
-      link: "#", // Will be updated with actual link
-      github: "https://github.com/Rkhan76/eduvoyage",
+      link: '#', // Will be updated with actual link
+      github: '#', // Replace with actual GitHub repo link if available
       features: [
-        "Course browsing and cart management system",
-        "Google authentication integration",
-        "Backend with Node.js, Express, Prisma, and PostgreSQL",
-        "Secure sessions with JWT and js-cookie",
-        "Fully responsive UI using React, TypeScript, Tailwind CSS",
-        "Robust input validation via Zod",
+        'Login authentication with JWT and token storage in localStorage',
+        'State management using Redux',
+        'Enhanced styling with SCSS and Bootstrap',
+        'SMTP integration for mailing service',
+        'Image uploads handled with Multer',
+        'Deployed on AWS EC2 for scalability',
       ],
       technologies: [
-        "Node.js",
-        "Express.js",
-        "Prisma",
-        "PostgreSQL",
-        "React",
-        "TypeScript",
-        "Tailwind CSS",
-        "JWT",
+        'React.js',
+        'Node.js',
+        'Express.js',
+        'MongoDB',
+        'Redux',
+        'SCSS',
+        'Bootstrap',
+        'JWT',
+        'AWS EC2',
       ],
     },
-  ];
+    {
+      title: 'EduVoyage',
+      description:
+        'A full-stack e-learning platform enabling users to browse courses, manage carts, and authenticate via Google. Built with modern TypeScript and robust backend.',
+      image: projectImg3,
+      link: '#', // Will be updated with actual link
+      github: 'https://github.com/Rkhan76/eduvoyage',
+      features: [
+        'Course browsing and cart management system',
+        'Google authentication integration',
+        'Backend with Node.js, Express, Prisma, and PostgreSQL',
+        'Secure sessions with JWT and js-cookie',
+        'Fully responsive UI using React, TypeScript, Tailwind CSS',
+        'Robust input validation via Zod',
+      ],
+      technologies: [
+        'Node.js',
+        'Express.js',
+        'Prisma',
+        'PostgreSQL',
+        'React',
+        'TypeScript',
+        'Tailwind CSS',
+        'JWT',
+      ],
+    },
+  ]
 
   return (
     <section className="py-24 relative" id="projects">
